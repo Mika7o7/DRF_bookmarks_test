@@ -12,7 +12,7 @@
 2. Перейдите в директорию проекта:
     
     
-    bash
+    ```bash
     cd your-project
 
 3. Проверьте наличие Docker:
@@ -20,7 +20,7 @@
     
     Перед тем как продолжить, убедитесь, что у вас установлен Docker. Вы можете проверить это командой:
 
-    bash
+    ```bash
     docker --version
 
     Если Docker не установлен, установите Docker согласно инструкциям для вашей операционной системы.
@@ -30,7 +30,7 @@
     находим где у нас docker-compose.yml
     
 
-    bash
+    ```bash
     sudo docker-compose build
 
     sudo docker-compose up
@@ -49,20 +49,20 @@
 
 1. Перейдите в директорию проекта:
     
-    bash
+    ```bash
 
     cd your-project
 
 2. Создайте и активируйте виртуальное окружение:
 
-    bash
+    ```bash
 
     python -m venv venv
     source venv/bin/activate  # Для Windows: venv\Scripts\activate
 
 3. Установите зависимости:
 
-    bash
+    ```bash
 
     pip install -r requirements.txt
 
@@ -70,7 +70,7 @@
 4. Создать файл .env в каталоге drf_project где находиться settings.py файл
 
     и поставить вот это
-    bash
+    ```bash
 
     SECRET_KEY=foo
     DEBUG=1
@@ -84,14 +84,14 @@
 
 4. Примените миграции:
 
-    bash
+    ```bash
     
     python manage.py makemigrations
     python manage.py migrate
 
 5. Запустите сервер:
 
-    bash
+    ```bash
 
     python manage.py runserver
 

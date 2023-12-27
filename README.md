@@ -13,7 +13,7 @@
     
     
     ```bash
-    cd your-project
+    cd DRF_bookmarks_test
 
 3. Проверьте наличие Docker:
     

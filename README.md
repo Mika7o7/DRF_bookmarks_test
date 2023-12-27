@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/Mika7o7/DRF_bookmarks_test.git
 
 
 2. Перейдите в директорию проекта:
@@ -95,7 +95,7 @@
 
     python manage.py runserver
 
-    ```
+
 
 ## Теперь ваш сервер должен быть доступен по адресу http://127.0.0.1:8000/api/.
 

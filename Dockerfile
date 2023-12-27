@@ -5,7 +5,7 @@ FROM python:3.9
 ENV PYTHONUNBUFFERED 1
 
 # Set the working directory to /app
-RUN mkdir /code
+RUN mkdir /api
 
 WORKDIR /api
 

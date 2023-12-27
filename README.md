@@ -34,6 +34,8 @@
     sudo docker-compose build
 
     sudo docker-compose up
+    
+    sudo docker-compose up
 
 
 ## Теперь ваш сервер должен быть доступен по адресу http://127.0.0.1:8000/api/.

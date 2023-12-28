@@ -54,22 +54,22 @@
 Клонируйте этот репозиторий: 
     
     
-        git clone https://github.com/Mika7o7/DRF_bookmarks_test.git
+    git clone https://github.com/Mika7o7/DRF_bookmarks_test.git
 
 Перейдите в директорию проекта: 
     
     
-        cd DRF_bookmarks_test
+    cd DRF_bookmarks_test
 
 Постройте Docker-контейнеры: 
     
     
-        docker-compose build
+    docker-compose build
 
 Запустите Docker-контейнеры: 
 
     
-        docker-compose up
+    docker-compose up
 
         
 Доступ к API по адресу http://localhost:8000/api/

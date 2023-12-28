@@ -53,22 +53,22 @@
 Установите Docker: Руководство по установке Docker
 Клонируйте этот репозиторий: 
     
-    ```bash
+    
         git clone https://github.com/Mika7o7/DRF_bookmarks_test.git
 
 Перейдите в директорию проекта: 
     
-    ```bash
+    
         cd DRF_bookmarks_test
 
 Постройте Docker-контейнеры: 
     
-    ```bash
+    
         docker-compose build
 
 Запустите Docker-контейнеры: 
 
-    ```bash
+    
         docker-compose up
 
         

@@ -70,6 +70,10 @@
 
     
     docker-compose up
+    
+    ctrl + c
+    
+    docker-compose up
 
         
 Доступ к API по адресу http://localhost:8000/api/

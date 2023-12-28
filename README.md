@@ -48,34 +48,31 @@
     В качестве базы данных использовать Postgres.
     Можно использовать любые библиотеки или "батарейки" Django.
 
-Начало работы
+## Начало работы
 
-    Установите Docker: Руководство по установке Docker
-    Клонируйте этот репозиторий: 
+Установите Docker: Руководство по установке Docker
+Клонируйте этот репозиторий: 
     
     ```bash
         git clone https://github.com/Mika7o7/DRF_bookmarks_test.git
 
-        
-    Перейдите в директорию проекта: 
+Перейдите в директорию проекта: 
     
     ```bash
         cd DRF_bookmarks_test
 
-    
-    Постройте Docker-контейнеры: 
+Постройте Docker-контейнеры: 
     
     ```bash
         docker-compose build
 
-        
-    Запустите Docker-контейнеры: 
+Запустите Docker-контейнеры: 
 
     ```bash
         docker-compose up
 
         
-    Доступ к API по адресу http://localhost:8000/api/
+Доступ к API по адресу http://localhost:8000/api/
 
 
 ## Установка и запуск без Docker
